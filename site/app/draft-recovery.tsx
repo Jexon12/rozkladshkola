@@ -1,0 +1,17 @@
+"use client";
+import {useEffect,useState,useRef} from 'react';
+import {draftKey,readStoredDraft,type StoredDraft} from '../lib/draft-storage';
+import type {School} from '../lib/school';
+export default function DraftRecovery({enabled,ready,draft,dirty,revision,date,classId,onRestore}:{enabled:boolean;ready:boolean;draft:School|null;dirty:boolean;revision:number;date:string;classId:string;onRestore:(s:School,context?:{date?:string;classId?:string})=>void}){
+ const [loaded,setLoaded]=useState(false),[recovery,setRecovery]=useState<StoredDraft|null>(null),[status,setStatus]=useState(''),[reviewed,setReviewed]=useState(false);
+ const lastWritten=useRef<string|null>(null);
+ useEffect(()=>{if(!enabled||!ready)return;try{setRecovery(readStoredDraft(localStorage.getItem(draftKey)));}catch{setStatus('Локальне збереження недоступне. Експортуйте резервну копію.');}setLoaded(true);},[enabled,ready]);
+ useEffect(()=>{if(!enabled||!ready||!loaded||recovery)return;if(!dirty){try{if(lastWritten.current&&localStorage.getItem(draftKey)===lastWritten.current)localStorage.removeItem(draftKey);}catch{}lastWritten.current=null;setStatus('');return;}if(!draft)return;
+  try{const raw=JSON.stringify({school:draft,baseRevision:revision,savedAt:new Date().toISOString(),date,classId});localStorage.setItem(draftKey,raw);lastWritten.current=raw;setStatus('Чернетку збережено на цьому пристрої.');}catch{setStatus('Не вдалося зберегти чернетку на пристрої. Експортуйте резервну копію.');}
+ },[enabled,ready,loaded,recovery,draft,dirty,revision,date,classId]);
+ useEffect(()=>{if(!enabled||!dirty)return;const warn=(e:BeforeUnloadEvent)=>{e.preventDefault();e.returnValue='';};window.addEventListener('beforeunload',warn);return()=>window.removeEventListener('beforeunload',warn);},[enabled,dirty]);
+ useEffect(()=>{if(!enabled)return;const changed=(e:StorageEvent)=>{if(e.key===draftKey&&!dirty)setRecovery(readStoredDraft(e.newValue));};window.addEventListener('storage',changed);return()=>window.removeEventListener('storage',changed);},[enabled,dirty]);
+ if(!enabled)return null;
+ function clear(){try{if(readStoredDraft(localStorage.getItem(draftKey))?.savedAt===recovery?.savedAt)localStorage.removeItem(draftKey);}catch{}setRecovery(null);setReviewed(false);}
+ return <>{recovery&&<section className="panel recovery-panel"><h2>Знайдено незбережену чернетку</h2><p>Збережена {new Date(recovery.savedAt).toLocaleString('uk-UA')}. Відновлення не змінює опублікований розклад.</p>{dirty&&<p className="warning-text">Відновіть або відкиньте знайдену чернетку, щоб увімкнути локальне збереження нових правок.</p>}{recovery.baseRevision!==revision&&<p className="warning-text">Розклад на сайті вже змінився. Відновлена чернетка замінить його лише після вашого збереження.</p>}{(recovery.baseRevision!==revision||dirty)&&<label className="ocr-confirm"><input type="checkbox" checked={reviewed} onChange={e=>setReviewed(e.target.checked)}/>Я розумію, що відновлення замінить поточну чернетку</label>}<div className="ocr-actions"><button className="primary-button" disabled={(recovery.baseRevision!==revision||dirty)&&!reviewed} onClick={()=>{onRestore(recovery.school,{date:recovery.date,classId:recovery.classId});clear();}}>Відновити чернетку</button><button className="secondary-button" onClick={clear}>Відкинути збережену чернетку</button></div></section>}{dirty&&status&&<p className="draft-storage-status" role="status">{status}</p>}</>;
+}

@@ -1,0 +1,5 @@
+import fs from 'node:fs';let s=fs.readFileSync('app/schedule.tsx','utf8');s=s.replace("import DateStrip from './date-strip';","import DateStrip from './date-strip';\nimport TargetPicker from './target-picker';");
+const start=s.indexOf('{view!=="edit"&&view!=="calendar"&&<div className="segmented" aria-label="Для кого розклад">');const end=s.indexOf('     {audience==="class"&&view!=="edit"',start);if(start<0||end<0)throw Error('Filter boundaries missing');
+s=s.slice(0,start)+`{view!=="edit"&&view!=="calendar"?<TargetPicker teachers={school.teachers} audience={audience} classId={selected} teacherId={teacherId} onSelect={(kind,id)=>{setAudience(kind);if(kind==='class')setSelected(id);else setTeacherId(id);}}/>:<label className="select-label">Клас<select value={selected} onChange={e=>setSelected(e.target.value)}>{classes.map(c=><option key={c}>{c}</option>)}</select></label>}\n`+s.slice(end);
+s=s.replace(/    \{\(view==="day"\|\|view==="week"\)[^\n]+\n/,'');
+s=s.replace('<p>Усе за розкладом<span>Час за Києвом</span></p>','<p>Усе за розкладом</p>');fs.writeFileSync('app/schedule.tsx',s);

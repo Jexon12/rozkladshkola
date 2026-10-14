@@ -1,0 +1,23 @@
+import {build} from 'esbuild';
+import {DatabaseSync} from 'node:sqlite';
+import {readFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+await build({stdin:{contents:'export * from "./lib/school.ts";export * from "./lib/draft-storage.ts";export * from "./lib/photo-recognition.ts";export * from "./lib/room-conflicts.ts";export * from "./lib/schedule-history.ts";',resolveDir:process.cwd()},bundle:true,platform:'node',format:'esm',outfile:'.sites-runtime/upgrades-check.mjs'});
+const {seed,roomConflicts,readStoredDraft,parsePhotoDate,historyStatements}=await import('../.sites-runtime/upgrades-check.mjs');
+for(const [raw,expected] of [['Зміни на _середу_07 жовтня_2026 рік','2026-10-07'],['п’ятницю 02 жовтня 2026','2026-10-02'],['29 вересня 2026','2026-09-29'],['08.10.2026','2026-10-08'],['31 лютого 2026',null],['немає дати',null]])assert.equal(parsePhotoDate(raw),expected);
+assert.equal(readStoredDraft('{bad'),null);assert.equal(readStoredDraft(JSON.stringify({school:{},baseRevision:1,savedAt:'2026-10-11'})),null);
+assert.equal(readStoredDraft(JSON.stringify({school:seed,baseRevision:3,savedAt:'2026-10-11T10:00:00Z'})).baseRevision,3);
+const context=readStoredDraft(JSON.stringify({school:seed,baseRevision:3,savedAt:'2026-10-11T10:00:00Z',date:'2026-09-24',classId:'5'}));assert.equal(context.date,'2026-09-24');assert.equal(context.classId,'5');
+assert.equal(readStoredDraft(JSON.stringify({...context,date:'2026-02-31',classId:'unknown'})).date,undefined);
+const empty=()=>{const s=structuredClone(seed);s.changes={};for(const week of Object.values(s.weekly))for(const day of week)day.fill(null);return s;};
+const s=empty();s.weekly['1'][0][0]={subject:'Математика',room:'М'};s.weekly['2'][0][0]={subject:'Математика',room:'М'};
+assert.equal(roomConflicts(s,['2026-10-05']).length,1,'Different bell durations still overlap');assert.equal(roomConflicts(s,['2026-10-10']).length,0);
+s.weekly['2'][0][0].room='Г';assert.equal(roomConflicts(s,['2026-10-05']).length,0);s.weekly['2'][0][0]=null;s.weekly['2'][0][1]={subject:'Математика',room:'М'};assert.equal(roomConflicts(s,['2026-10-05']).length,0,'Adjacent periods do not overlap');
+s.weekly['1'][0][0].room='ТП/Б';s.weekly['2'][0][0]={subject:'Біологія',room:'Б'};assert.equal(roomConflicts(s,['2026-10-05'])[0].room,'Б');
+const db=new DatabaseSync(':memory:');db.exec(await readFile('drizzle/0000_ordinary_adam_warlock.sql','utf8'));db.exec(await readFile('drizzle/0001_parallel_iron_monger.sql','utf8'));
+function save(data,revision){db.exec('BEGIN');try{const result=historyStatements(data,revision,'2026-10-11T10:00:00Z',JSON.stringify(seed)).map(({sql,args})=>db.prepare(sql).run(...args));db.exec('COMMIT');return Number(result[revision===0?2:1].changes);}catch(e){db.exec('ROLLBACK');throw e;}}
+const initial=JSON.stringify(seed),next=JSON.stringify({...seed,version:1,teachers:[]});assert.equal(save(next,0),1);assert.equal(db.prepare('SELECT data FROM schedule_history WHERE revision=0').get().data,initial);assert.equal(save(initial,0),0,'Stale initial writer denied');assert.equal(db.prepare('SELECT data FROM schedules').get().data,next);
+assert.equal(save(initial,1),1,'Restoring a snapshot creates a new revision');assert.equal(db.prepare('SELECT data FROM schedule_history WHERE revision=1').get().data,next);
+assert.equal(save(next,1),0,'Stale later writer denied');assert.equal(db.prepare('SELECT data FROM schedules').get().data,initial);
+for(let i=2;i<55;i++)assert.equal(save(JSON.stringify({i}),i),1);assert.equal(db.prepare('SELECT count(*) n FROM schedule_history').get().n,50);assert.equal(db.prepare('SELECT max(revision) n FROM schedule_history').get().n,55);db.close();
+console.log('Upgrade checks passed: date suggestions, invalid draft recovery, overlapping rooms, composite rooms, atomic history, stale writes, restores and 50-version retention.');

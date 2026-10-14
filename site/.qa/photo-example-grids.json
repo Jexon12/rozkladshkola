@@ -1,0 +1,5019 @@
+[
+  {
+    "date": "2026-10-07",
+    "secondary": {
+      "xs": [
+        5.0625,
+        20.9375,
+        35.9375,
+        50.5625,
+        65.9375,
+        81.375,
+        98.5
+      ],
+      "ys": [
+        14.854368932038836,
+        19.320388349514563,
+        23.689320388349515,
+        28.058252427184467,
+        32.5242718446602,
+        36.89320388349515,
+        41.262135922330096,
+        45.728155339805824,
+        50
+      ],
+      "slope": 0.011111111111111108,
+      "rowSlopes": [
+        0.015,
+        0.015,
+        0.0125,
+        0.0125,
+        0.01,
+        0.01,
+        0.01,
+        0.0075,
+        0.0075
+      ],
+      "columnSlopes": [
+        0.0050000000000000435,
+        4.336808689942018e-17,
+        -0.004999999999999957,
+        -0.009999999999999957,
+        -0.01999999999999996,
+        -0.02999999999999996,
+        -0.02999999999999996
+      ],
+      "columnCenter": 30.8252427184466
+    },
+    "cells": [
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 0,
+        "raw": "Інформатика (11) ІН",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН",
+          "group": "II"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 0,
+        "raw": "Англ.мова AM",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 0,
+        "raw": "Всесв.істор Г",
+        "confidence": 72,
+        "lesson": {
+          "subject": "Всесвітня історія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 0,
+        "raw": "Інформатика ВСІ КБ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "КБ",
+          "group": "Усі"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 0,
+        "raw": "Укр.мов УМ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 0,
+        "raw": "Алгебра М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 1,
+        "raw": "Англ.мова AM",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 1,
+        "raw": "Математика М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 1,
+        "raw": "Алгебра ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 1,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 1,
+        "raw": "Фізика КБ",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 1,
+        "raw": "Географія Г",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Географія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 2,
+        "raw": "Укр.мова УМ",
+        "confidence": 88,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 2,
+        "raw": "Математика М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 2,
+        "raw": "Фізика КБ",
+        "confidence": 76,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 2,
+        "raw": "Географія I’",
+        "confidence": 72,
+        "lesson": {
+          "subject": "Географія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 2,
+        "raw": "Геометрія ІН",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 2,
+        "raw": "Фіз.культ. C3",
+        "confidence": 86,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 3,
+        "raw": "Математика АМ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Математика",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 3,
+        "raw": "Укр.мова УМ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 3,
+        "raw": "Фіз.культ. C3",
+        "confidence": 76,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 3,
+        "raw": "Алгебра М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 3,
+        "raw": "Географія I'",
+        "confidence": 86,
+        "lesson": {
+          "subject": "Географія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 3,
+        "raw": "Фізика КБ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 4,
+        "raw": "Математика АМ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Математика",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 4,
+        "raw": "Громад.освіта Г",
+        "confidence": 78,
+        "lesson": {
+          "subject": "Громадянська освіта",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 4,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 4,
+        "raw": "Фізкультура C3",
+        "confidence": 50,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 4,
+        "raw": "Інформатика ІН",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 4,
+        "raw": "Фізика КБ",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 5,
+        "raw": "Психол.година АМ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Психологічна година",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 5,
+        "raw": "Фіз.культура C3",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 5,
+        "raw": "Фізика КБ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 5,
+        "raw": "Алгебра IH",
+        "confidence": 81,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 5,
+        "raw": "Громад.освіта I",
+        "confidence": 79,
+        "lesson": {
+          "subject": "Громадянська освіта",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 6,
+        "raw": "Інформатика(І) ІН",
+        "confidence": 67,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН",
+          "group": "I"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 6,
+        "raw": "Інформатика ВСІ М",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "М",
+          "group": "Усі"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 6,
+        "raw": "Фіз.культ. C3",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 6,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 7,
+        "raw": "Вих.година ТІЇ",
+        "confidence": 57,
+        "lesson": {
+          "subject": "Виховна година",
+          "room": ""
+        },
+        "known": true
+      }
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "secondary": {
+      "xs": [
+        4.1875,
+        19.9375,
+        34.9375,
+        49.6875,
+        65.375,
+        81.1875,
+        98.5625
+      ],
+      "ys": [
+        14.285714285714285,
+        19.340659340659343,
+        24.505494505494504,
+        29.560439560439562,
+        34.505494505494504,
+        39.56043956043956,
+        44.61538461538462,
+        49.67032967032967,
+        54.72527472527473
+      ],
+      "slope": -0.005,
+      "rowSlopes": [
+        -0.005,
+        -0.005,
+        -0.005,
+        -0.005,
+        -0.005,
+        -0.005,
+        -0.005,
+        -0.005,
+        -0.005
+      ],
+      "columnSlopes": [
+        0.010000000000000044,
+        0.015000000000000045,
+        4.336808689942018e-17,
+        4.336808689942018e-17,
+        -0.009999999999999957,
+        -0.009999999999999957,
+        -0.009999999999999957
+      ],
+      "columnCenter": 32.69230769230769
+    },
+    "cells": [
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 0,
+        "raw": "Зар.літ. КБ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 0,
+        "raw": "Укр.літ. УМ",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 0,
+        "raw": "Інформатика(ЦІН",
+        "confidence": 2,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 0,
+        "raw": "Історія України Г",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 0,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 0,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 1,
+        "raw": "Пізн. природу KAN",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Пізнаємо природу",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 1,
+        "raw": "Зарліт КБ",
+        "confidence": 79,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 1,
+        "raw": "Історія Укр Г",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 1,
+        "raw": "Підпр. і фін.грам. ІСТ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Підприємництво і фінансова грамотність",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 1,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 1,
+        "raw": "Алгебра М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 2,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 2,
+        "raw": "Пізн. природу ICT",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Пізнаємо природу",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 2,
+        "raw": "Зар.літ КБ",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 2,
+        "raw": "Хімія I",
+        "confidence": 79,
+        "lesson": {
+          "subject": "Хімія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 2,
+        "raw": "Геометрія TH",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 2,
+        "raw": "STEM М",
+        "confidence": 91,
+        "lesson": {
+          "subject": "STEM",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 3,
+        "raw": "Математика М",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 3,
+        "raw": "Історія Г",
+        "confidence": 82,
+        "lesson": {
+          "subject": "Історія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 3,
+        "raw": "Укр.літ. УМ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 3,
+        "raw": "Заруб.літ. Kb",
+        "confidence": 86,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 3,
+        "raw": "Біологія Б",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Біологія",
+          "room": "Б"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 3,
+        "raw": "Підпр. i фін.грам. ICT",
+        "confidence": 85,
+        "lesson": {
+          "subject": "Підприємництво і фінансова грамотність",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 4,
+        "raw": "Укр.літ. УМ",
+        "confidence": 81,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 4,
+        "raw": "| Здоребезпладобр. Б.",
+        "confidence": 58,
+        "lesson": {
+          "subject": "Здоров’я, безпека та добробут",
+          "room": "Б"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 4,
+        "raw": "Геометрія М",
+        "confidence": 87,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 4,
+        "raw": "Всесв. істор. I’",
+        "confidence": 23,
+        "lesson": {
+          "subject": "Всесвітня історія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 4,
+        "raw": "Заруб.літ. КБ",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 4,
+        "raw": "Інформатика ВСІ ІН",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН",
+          "group": "Усі"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 5,
+        "raw": "Здор.,безп.та nobp. Б",
+        "confidence": 76,
+        "lesson": {
+          "subject": "Здоров’я, безпека та добробут",
+          "room": "Б"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 5,
+        "raw": "| STEMICT {0",
+        "confidence": 42,
+        "lesson": {
+          "subject": "STEM",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 5,
+        "raw": "Інформатика(1) ІН",
+        "confidence": 58,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН",
+          "group": "I"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 5,
+        "raw": "Укр.літ. УМ",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 5,
+        "raw": "Хімія Г",
+        "confidence": 76,
+        "lesson": {
+          "subject": "Хімія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 5,
+        "raw": "Заруб.літ. Kb",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 6,
+        "raw": "Укр.мова YM",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 6,
+        "raw": "Вих,годніпа КБ",
+        "confidence": 72,
+        "lesson": {
+          "subject": "Виховна година",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 6,
+        "raw": "Геометрія Ш",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 7,
+        "raw": "Вих.годпна УМ",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Виховна година",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 7,
+        "lesson": null
+      }
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "secondary": {
+      "xs": [
+        5.4375,
+        21.5,
+        36.125,
+        50.5,
+        65.6875,
+        81.125,
+        98.1875
+      ],
+      "ys": [
+        23.34384858044164,
+        30.441640378548897,
+        37.69716088328076,
+        44.79495268138801,
+        51.89274447949527,
+        58.99053627760252,
+        66.08832807570978,
+        73.18611987381703,
+        80.12618296529969
+      ],
+      "slope": -0.006666666666666667,
+      "rowSlopes": [
+        -0.005,
+        -0.005,
+        -0.0075,
+        -0.005,
+        -0.0075,
+        -0.0075,
+        -0.0075,
+        -0.0075,
+        -0.0075
+      ],
+      "columnSlopes": [
+        0.0050000000000000435,
+        0.015000000000000045,
+        0.015000000000000045,
+        4.336808689942018e-17,
+        -0.004999999999999957,
+        -0.009999999999999957,
+        4.336808689942018e-17
+      ],
+      "columnCenter": 49.21135646687697
+    },
+    "cells": [
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 0,
+        "raw": "Інформатика ЦІН",
+        "confidence": 36,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 0,
+        "raw": "Фіз.культ, C3",
+        "confidence": 70,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 0,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 0,
+        "raw": "Географія Г",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Географія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 0,
+        "raw": "Фізика КБ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 0,
+        "raw": "Алгебра М",
+        "confidence": 85,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 1,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 1,
+        "raw": "Математика М",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 1,
+        "raw": "Алгебра АМ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 1,
+        "raw": "Фіз.культура C3",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 1,
+        "raw": "Історія Укр. Г",
+        "confidence": 87,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 1,
+        "raw": "Фізика КБ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 2,
+        "raw": "Математика М",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 2,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 2,
+        "raw": "Хімія Г",
+        "confidence": 88,
+        "lesson": {
+          "subject": "Хімія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 2,
+        "raw": "Фізика КБ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 2,
+        "raw": "Інформатика ІН",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 2,
+        "raw": "Фіз.культ. C3",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 3,
+        "raw": "Фіз.культ. C3",
+        "confidence": 83,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 3,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 3,
+        "raw": "Фізика КБ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 3,
+        "raw": "Алгебра М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 3,
+        "raw": "Алгебра ІН",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 3,
+        "raw": "Хімія Г",
+        "confidence": 88,
+        "lesson": {
+          "subject": "Хімія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 4,
+        "raw": "Англ.мова АМ",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 4,
+        "raw": "Географія I’",
+        "confidence": 79,
+        "lesson": {
+          "subject": "Географія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 4,
+        "raw": "Психол.год, ICT",
+        "confidence": 86,
+        "lesson": {
+          "subject": "Психологічна година",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 4,
+        "raw": "Геометрія М",
+        "confidence": 83,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 4,
+        "raw": "Фізика КБ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 4,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 5,
+        "raw": "Робототехніка М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Робототехніка",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 5,
+        "raw": "Англ.мова АМ",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 5,
+        "raw": "Географія Г",
+        "confidence": 88,
+        "lesson": {
+          "subject": "Географія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 5,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 5,
+        "raw": "Фіз.культ. C3",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 5,
+        "raw": "Професії ICT",
+        "confidence": 69,
+        "lesson": {
+          "subject": "Професії",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 6,
+        "raw": "STEMICT",
+        "confidence": 87,
+        "lesson": {
+          "subject": "STEM",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 6,
+        "raw": "Робототехніка М",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Робототехніка",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 6,
+        "raw": "Інформатика() ІН",
+        "confidence": 65,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 6,
+        "raw": "STEM AM",
+        "confidence": 95,
+        "lesson": {
+          "subject": "STEM",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 6,
+        "raw": "Історія Укр. Г",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 7,
+        "raw": "Indopmarska(l) ІН",
+        "confidence": 56,
+        "lesson": {
+          "subject": "Indopmarska",
+          "room": "ІН",
+          "group": "I"
+        },
+        "known": false
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 7,
+        "lesson": null
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "secondary": {
+      "xs": [
+        4.1875,
+        20.125,
+        35.25,
+        50.125,
+        65.625,
+        81,
+        97.8125
+      ],
+      "ys": [
+        38.81818181818182,
+        43,
+        47.18181818181818,
+        51.36363636363637,
+        55.45454545454545,
+        59.63636363636363,
+        63.90909090909091,
+        68.0909090909091,
+        72.27272727272728
+      ],
+      "slope": 0.0005555555555555554,
+      "rowSlopes": [
+        0.005,
+        0.0025,
+        0.0025,
+        0,
+        0,
+        0,
+        0,
+        -0.0025,
+        -0.0025
+      ],
+      "columnSlopes": [
+        -0.009999999999999957,
+        -0.009999999999999957,
+        -0.009999999999999957,
+        -0.004999999999999957,
+        -0.004999999999999957,
+        4.336808689942018e-17,
+        -0.004999999999999957
+      ],
+      "columnCenter": 54.090909090909086
+    },
+    "primary": {
+      "xs": [
+        4.5625,
+        27.0625,
+        50.24999999999999,
+        71.5625,
+        93.375
+      ],
+      "ys": [
+        7.818181818181818,
+        12,
+        16.272727272727273,
+        20.454545454545457,
+        24.636363636363637,
+        28.81818181818182,
+        32.90909090909091
+      ],
+      "slope": 0.007857142857142858,
+      "rowSlopes": [
+        0.01,
+        0.0075,
+        0.01,
+        0.0075,
+        0.0075,
+        0.005,
+        0.0075
+      ],
+      "columnSlopes": [
+        -0.014999999999999958,
+        4.336808689942018e-17,
+        -0.009999999999999957,
+        -0.02499999999999996,
+        -0.02999999999999996
+      ],
+      "columnCenter": 18.863636363636363
+    },
+    "cells": [
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 0,
+        "raw": "Зар.літ KB",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 0,
+        "raw": "Пізн. природу ICT",
+        "confidence": 87,
+        "lesson": {
+          "subject": "Пізнаємо природу",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 0,
+        "raw": "Технології ТП/Б",
+        "confidence": 68,
+        "lesson": {
+          "subject": "Технології",
+          "room": "ТП/Б"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 0,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 0,
+        "raw": "Громад.освіта Г",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Громадянська освіта",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 0,
+        "raw": "Геометрія М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 1,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 1,
+        "raw": "Зар.літ KB",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 1,
+        "raw": "Алгебра М",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 1,
+        "raw": "Історія України Г",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 1,
+        "raw": "Технології TING",
+        "confidence": 82,
+        "lesson": {
+          "subject": "Технології",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 1,
+        "raw": "Технології TING",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Технології",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 2,
+        "raw": "Математика М",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 2,
+        "raw": "Технології ТП",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Технології",
+          "room": "ТП"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 2,
+        "raw": "Зар.літ КБ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 2,
+        "raw": "Хімія Г",
+        "confidence": 82,
+        "lesson": {
+          "subject": "Хімія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 2,
+        "raw": "Укр.мова УМ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 2,
+        "raw": "Біологія Б",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Біологія",
+          "room": "Б"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 3,
+        "raw": "Етика ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Етика",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 3,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 3,
+        "raw": "Укр.літ. УМ",
+        "confidence": 77,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 3,
+        "raw": "Зар.літ КБ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 3,
+        "raw": "Алгебра МІ",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 3,
+        "raw": "Всесв.Історія I”",
+        "confidence": 46,
+        "lesson": {
+          "subject": "Всесвітня історія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 0,
+        "raw": "Навчання грамоти",
+        "confidence": 87,
+        "lesson": {
+          "subject": "Навчання грамоти",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 0,
+        "raw": "Я дослідж, світ",
+        "confidence": 76,
+        "lesson": {
+          "subject": "Я досліджую світ",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 0,
+        "raw": "Літ-читання",
+        "confidence": 50,
+        "lesson": {
+          "subject": "Літературне читання",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 0,
+        "raw": "Укр.мова",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 1,
+        "raw": "Апгл.мова",
+        "confidence": 32,
+        "lesson": {
+          "subject": "Апгл.мова",
+          "room": ""
+        },
+        "known": false
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 1,
+        "raw": "Математика",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Математика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 1,
+        "raw": "Укр.мова",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 1,
+        "raw": "Математика",
+        "confidence": 22,
+        "lesson": {
+          "subject": "Математика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 2,
+        "raw": "Навчання грамоти",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Навчання грамоти",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 2,
+        "raw": "Фізкультура",
+        "confidence": 0,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 2,
+        "raw": "Математика",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Математика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 2,
+        "raw": "Англ.мова",
+        "confidence": 73,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 3,
+        "raw": "Мистецтво",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 3,
+        "raw": "Англ.мова",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 3,
+        "raw": "фізкультура",
+        "confidence": 0,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 3,
+        "raw": "Літчитання",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Літературне читання",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 5,
+        "lesson": null
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "secondary": {
+      "xs": [
+        6.875000000000001,
+        22.25,
+        36.6875,
+        50.81250000000001,
+        65.8125,
+        80.875,
+        97.8125
+      ],
+      "ys": [
+        17.376294591484466,
+        22.554660529344073,
+        27.848101265822784,
+        32.91139240506329,
+        37.9746835443038,
+        42.9228998849252,
+        47.986191024165706,
+        52.93440736478712,
+        57.88262370540852
+      ],
+      "slope": -0.012222222222222221,
+      "rowSlopes": [
+        -0.01,
+        -0.01,
+        -0.0125,
+        -0.0125,
+        -0.0125,
+        -0.0125,
+        -0.0125,
+        -0.0125,
+        -0.015
+      ],
+      "columnSlopes": [
+        0.08000000000000004,
+        0.04500000000000004,
+        0.030000000000000047,
+        0.0050000000000000435,
+        -0.01999999999999996,
+        -0.03999999999999996,
+        -0.07999999999999996
+      ],
+      "columnCenter": 35.7307249712313
+    },
+    "cells": [
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 0,
+        "raw": "Укр.літ, УМ",
+        "confidence": 66,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 0,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 0,
+        "raw": "Інформатика(ІН",
+        "confidence": 0,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 0,
+        "raw": "Історія України Г",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 0,
+        "raw": "Заруб.літ. КБ",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 0,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 1,
+        "raw": "Зар.літ. КБ",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 1,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 1,
+        "raw": "Історія Укр Г",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 1,
+        "raw": "Англ.мова AM",
+        "confidence": 78,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 1,
+        "raw": "Укр.мова YM",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 1,
+        "raw": "Алгебра М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 2,
+        "raw": "Укр.мова YM",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 2,
+        "raw": "Здор.,безп.та добр; Б",
+        "confidence": 79,
+        "lesson": {
+          "subject": "Здоров’я, безпека та добробут",
+          "room": "Б"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 2,
+        "raw": "Зар.літ КБ",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 2,
+        "raw": "Хімія I’",
+        "confidence": 84,
+        "lesson": {
+          "subject": "Хімія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 2,
+        "raw": "Геометрія TH",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 2,
+        "raw": "Англ.мова AM",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 3,
+        "raw": "Математика М",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 3,
+        "raw": "Історія I",
+        "confidence": 65,
+        "lesson": {
+          "subject": "Історія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 3,
+        "raw": "Укр.літ. YM",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 3,
+        "raw": "Заруб.літ. KB",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 3,
+        "raw": "Англ.мова AM",
+        "confidence": 86,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 3,
+        "raw": "Біологія Б",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Біологія",
+          "room": "Б"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 4,
+        "raw": "Здоп..безп.та Лобо. Б",
+        "confidence": 50,
+        "lesson": {
+          "subject": "Здоп..безп.та Лобо.",
+          "room": "Б"
+        },
+        "known": false
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 4,
+        "raw": "Зар.літ КБ",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 4,
+        "raw": "Англ.мова AM",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 4,
+        "raw": "Укр.літ YM",
+        "confidence": 88,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 4,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 4,
+        "raw": "Геометрія ІН",
+        "confidence": 87,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 5,
+        "raw": "Укр.літ. YM",
+        "confidence": 69,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 5,
+        "raw": "Геометрія М",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 5,
+        "raw": "Біологія Б",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Біологія",
+          "room": "Б"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 5,
+        "raw": "Заруб.літ. КБ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Зарубіжна література",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 6,
+        "raw": "Укр.мова УМ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 6,
+        "raw": "Інформатика(ІІ) ІН",
+        "confidence": 48,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН",
+          "group": "II"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 6,
+        "raw": "Вих.годнина KB",
+        "confidence": 65,
+        "lesson": {
+          "subject": "Виховна година",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 7,
+        "raw": "| Вих.година YM",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Виховна година",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 7,
+        "lesson": null
+      }
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "secondary": {
+      "xs": [
+        3.5000000000000004,
+        19.4375,
+        34.4375,
+        49.125,
+        64.8125,
+        80.625,
+        97.875
+      ],
+      "ys": [
+        16.004077471967378,
+        20.693170234454637,
+        25.28032619775739,
+        29.96941896024465,
+        34.6585117227319,
+        39.347604485219165,
+        44.03669724770643,
+        48.725790010193684,
+        53.41488277268094
+      ],
+      "slope": 0.0008333333333333333,
+      "rowSlopes": [
+        0,
+        0,
+        0.0025,
+        0.0025,
+        0.0025,
+        0,
+        0,
+        0,
+        0
+      ],
+      "columnSlopes": [
+        -0.004999999999999957,
+        4.336808689942018e-17,
+        4.336808689942018e-17,
+        4.336808689942018e-17,
+        -0.004999999999999957,
+        4.336808689942018e-17,
+        0.0050000000000000435
+      ],
+      "columnCenter": 32.976554536187564
+    },
+    "cells": [
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 0,
+        "raw": "Інформатика( ІН",
+        "confidence": 45,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 0,
+        "raw": "Англ.мова AM",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 0,
+        "raw": "Укр.мова УМ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 0,
+        "raw": "Географія Г",
+        "confidence": 86,
+        "lesson": {
+          "subject": "Географія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 0,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 0,
+        "raw": "Алгебра М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 1,
+        "raw": "Укр.мова УМ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 1,
+        "raw": "Математика М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 1,
+        "raw": "Алгебра АМ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 1,
+        "raw": "Фіз.культура C3",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 1,
+        "raw": "Історія Укр. Г",
+        "confidence": 88,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 1,
+        "raw": "Фізика КБ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 2,
+        "raw": "Математнка М",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 2,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 2,
+        "raw": "Хімія Г",
+        "confidence": 80,
+        "lesson": {
+          "subject": "Хімія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 2,
+        "raw": "Фізика Kb",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 2,
+        "raw": "Інформатика IH",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 2,
+        "raw": "Фіз.культ. C3",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 3,
+        "raw": "Фіз.культ. C3",
+        "confidence": 61,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 3,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 3,
+        "raw": "Фізика КБ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 3,
+        "raw": "Алгебра М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 3,
+        "raw": "Алгебра ІН",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 3,
+        "raw": "Хімія Г",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Хімія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 4,
+        "raw": "Англ.мова АМ",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 4,
+        "raw": "Географія Г",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Географія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 4,
+        "raw": "Фіз.культура C3",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 4,
+        "raw": "Геометрія М",
+        "confidence": 86,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 4,
+        "raw": "Фізика КБ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 4,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 5,
+        "raw": "STEM AM",
+        "confidence": 95,
+        "lesson": {
+          "subject": "STEM",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 5,
+        "raw": "фіз.культ. C3",
+        "confidence": 78,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 5,
+        "raw": "Робототехніка М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Робототехніка",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 5,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 5,
+        "raw": "Фізика КБ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 5,
+        "raw": "Історія Укр. Г",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Історія України",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 6,
+        "raw": "Робототехніка М",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Робототехніка",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 6,
+        "raw": "Географія Г",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Географія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 6,
+        "raw": "Інформатика(І) ІН",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН",
+          "group": "I"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 6,
+        "raw": "Фіз.культ. C3",
+        "confidence": 76,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 6,
+        "raw": "Професії ІСТ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Професії",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 7,
+        "raw": "Інформатика(І) ІН",
+        "confidence": 65,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН",
+          "group": "I"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 7,
+        "raw": "STEM AM",
+        "confidence": 95,
+        "lesson": {
+          "subject": "STEM",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 7,
+        "lesson": null
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "secondary": {
+      "xs": [
+        7.249999999999999,
+        22.75,
+        37.1875,
+        51.125,
+        65.625,
+        80.25,
+        97.25
+      ],
+      "ys": [
+        40.24144869215292,
+        44.56740442655936,
+        48.79275653923541,
+        53.118712273641854,
+        57.54527162977867,
+        61.87122736418511,
+        66.19718309859155,
+        70.52313883299799,
+        74.84909456740442
+      ],
+      "slope": -0.03916666666666666,
+      "rowSlopes": [
+        -0.0325,
+        -0.035,
+        -0.035,
+        -0.0375,
+        -0.0375,
+        -0.04,
+        -0.0425,
+        -0.045,
+        -0.0475
+      ],
+      "columnSlopes": [
+        0.020000000000000046,
+        0.020000000000000046,
+        0.025000000000000046,
+        0.035000000000000045,
+        0.04000000000000004,
+        0.04000000000000004,
+        0.05000000000000004
+      ],
+      "columnCenter": 56.03621730382293
+    },
+    "primary": {
+      "xs": [
+        6.625,
+        28.625,
+        50.31250000000001,
+        70.125,
+        90.9375
+      ],
+      "ys": [
+        8.853118712273641,
+        12.977867203219315,
+        17.102615694164992,
+        21.32796780684105,
+        25.653923541247487,
+        29.77867203219316,
+        34.1046277665996
+      ],
+      "slope": -0.01892857142857143,
+      "rowSlopes": [
+        -0.0075,
+        -0.0125,
+        -0.0175,
+        -0.02,
+        -0.0225,
+        -0.025,
+        -0.0275
+      ],
+      "columnSlopes": [
+        0.020000000000000046,
+        0.030000000000000047,
+        0.035000000000000045,
+        0.030000000000000047,
+        0.05000000000000004
+      ],
+      "columnCenter": 20.02012072434608
+    },
+    "cells": [
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 0,
+        "raw": "Пізн. природу ІСТ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Пізнаємо природу",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 0,
+        "raw": "Фіз.культ. C3",
+        "confidence": 80,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 0,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 0,
+        "raw": "Геометрія М",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Геометрія",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 0,
+        "raw": "Всесв. історія Г             |",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Всесвітня історія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 0,
+        "raw": "Укр.мова YM",
+        "confidence": 84,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 1,
+        "raw": "Англ.мова АМ",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 1,
+        "raw": "Укр.літ. УМ",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 1,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 1,
+        "raw": "Алгебра М",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 1,
+        "raw": "Фіз.культ C3",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 1,
+        "raw": "Хімія Г",
+        "confidence": 82,
+        "lesson": {
+          "subject": "Хімія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 2,
+        "raw": "STEM AM",
+        "confidence": 83,
+        "lesson": {
+          "subject": "STEM",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 2,
+        "raw": "Математика М",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 2,
+        "raw": "Фіз.культ. C3",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 2,
+        "raw": "Професі ICT",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Професії",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 2,
+        "raw": "Хімія IT",
+        "confidence": 67,
+        "lesson": {
+          "subject": "Хімія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 2,
+        "raw": "Укр.літ. УМ",
+        "confidence": 63,
+        "lesson": {
+          "subject": "Українська література",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 3,
+        "raw": "Історія Г",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Історія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 3,
+        "raw": "Математика M",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 3,
+        "raw": "Укр.мова УМ",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 3,
+        "raw": "Bux.ronuia ЇСТ",
+        "confidence": 69,
+        "lesson": {
+          "subject": "Виховна година",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 3,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 3,
+        "raw": "Фіз.культ C3",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 4,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 4,
+        "raw": "Teorpadia I’",
+        "confidence": 70,
+        "lesson": {
+          "subject": "Teorpadia I’",
+          "room": ""
+        },
+        "known": false
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 4,
+        "raw": "Укр.мова УМ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 4,
+        "raw": "Фіз.культура C3",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 5,
+        "raw": "Фіз.культ. C3",
+        "confidence": 65,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 5,
+        "raw": "Англ.мова АМ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 5,
+        "raw": "Географія Г",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Географія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 5,
+        "raw": "Укр.мова УМ",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 6,
+        "raw": "Впх.година М",
+        "confidence": 82,
+        "lesson": {
+          "subject": "Впх.година",
+          "room": "М"
+        },
+        "known": false
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 6,
+        "raw": "Пізн. природу ІСТ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Пізнаємо природу",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 0,
+        "raw": "Я дослідж. світ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Я досліджую світ",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 0,
+        "raw": "фіз.культура",
+        "confidence": 77,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 0,
+        "raw": "Я дослідж. світ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Я досліджую світ",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 0,
+        "raw": "2 дослІДЖ. vit",
+        "confidence": 54,
+        "lesson": {
+          "subject": "2 дослІДЖ. vit",
+          "room": ""
+        },
+        "known": false
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 1,
+        "raw": "Математика",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Математика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 1,
+        "raw": "Українська мова",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 1,
+        "raw": "Укр.мова",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 1,
+        "raw": "Математика",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Математика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 2,
+        "raw": "фіз.культура",
+        "confidence": 71,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 2,
+        "raw": "Читання",
+        "confidence": 16,
+        "lesson": {
+          "subject": "Літературне читання",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 2,
+        "raw": "Математика",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Математика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 2,
+        "raw": "Мистецтво",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 3,
+        "raw": "Дизайн 1 технології",
+        "confidence": 67,
+        "lesson": {
+          "subject": "Дизайн і технології",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 3,
+        "raw": "Мистецтво",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 3,
+        "raw": "Дизайн ї технології",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Дизайн і технології",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 3,
+        "raw": "Англ.мова",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 4,
+        "raw": "Хореографія",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Хореографія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 4,
+        "raw": "Англ.мова",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 4,
+        "raw": "Мистецтво",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 4,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 0,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 1,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 2,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "primary",
+        "column": 3,
+        "row": 5,
+        "lesson": null
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "secondary": {
+      "xs": [
+        5.6875,
+        22.25,
+        37.375,
+        52,
+        67.3125,
+        82.375,
+        99.375
+      ],
+      "ys": [
+        15.773508594539939,
+        20.323559150657232,
+        24.87360970677452,
+        29.322548028311424,
+        33.872598584428715,
+        38.32153690596562,
+        42.9726996966633,
+        47.4216380182002,
+        52.07280080889788
+      ],
+      "slope": 0.005833333333333333,
+      "rowSlopes": [
+        0.0125,
+        0.01,
+        0.0075,
+        0.01,
+        0.005,
+        0.005,
+        0.0025,
+        0,
+        0
+      ],
+      "columnSlopes": [
+        -0.03499999999999996,
+        -0.01999999999999996,
+        -0.009999999999999957,
+        4.336808689942018e-17,
+        0.0050000000000000435,
+        0.025000000000000046,
+        0.04500000000000004
+      ],
+      "columnCenter": 32.355915065722954
+    },
+    "cells": [
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 0,
+        "raw": "Інформатика (І) ІН",
+        "confidence": 82,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "ІН",
+          "group": "I"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 0,
+        "raw": "Англ.мова АМ",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 0,
+        "raw": "Всесв. істор Г",
+        "confidence": 86,
+        "lesson": {
+          "subject": "Всесвітня історія",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 0,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 0,
+        "raw": "Укр.мов УМ",
+        "confidence": 94,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 0,
+        "raw": "Алгебра М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 1,
+        "raw": "Англ.мова АМ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Англійська мова",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 1,
+        "raw": "Математика М",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 1,
+        "raw": "Алгебра ІСТ",
+        "confidence": 89,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 1,
+        "raw": "Укр.мова УМ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 1,
+        "raw": "Фізика Kb",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 1,
+        "raw": "Географія I’",
+        "confidence": 39,
+        "lesson": {
+          "subject": "Географія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 2,
+        "raw": "Укр.мова УМ",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 2,
+        "raw": "Математика М",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Математика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 2,
+        "raw": "Фізика КБ",
+        "confidence": 71,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 2,
+        "raw": "Теографія T",
+        "confidence": 79,
+        "lesson": {
+          "subject": "Географія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 2,
+        "raw": "Алдгебра ІН",
+        "confidence": 76,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "ІН"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 2,
+        "raw": "Фіз, культ. C3",
+        "confidence": 32,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 3,
+        "raw": "Математика АМ",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Математика",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 3,
+        "raw": "Укр.мова УМ",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Українська мова",
+          "room": "УМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 3,
+        "raw": "Фіз.культ. C3",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 3,
+        "raw": "Апгебра М",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Алгебра",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 3,
+        "raw": "Географія IT’",
+        "confidence": 83,
+        "lesson": {
+          "subject": "Географія",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 3,
+        "raw": "Фізика Kb",
+        "confidence": 91,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 4,
+        "raw": "Математика АМ",
+        "confidence": 92,
+        "lesson": {
+          "subject": "Математика",
+          "room": "АМ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 4,
+        "raw": "Громад.освіта Г",
+        "confidence": 72,
+        "lesson": {
+          "subject": "Громадянська освіта",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 4,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 4,
+        "raw": "Фіз.культура C3",
+        "confidence": 93,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 4,
+        "raw": "Інформатика TH",
+        "confidence": 96,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 4,
+        "raw": "Фізика КБ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 5,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 5,
+        "raw": "Вих.годипа TH",
+        "confidence": 68,
+        "lesson": {
+          "subject": "Виховна година",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 5,
+        "raw": "Фізика КБ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Фізика",
+          "room": "КБ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 5,
+        "raw": "Фіз.культ. C3",
+        "confidence": 90,
+        "lesson": {
+          "subject": "Фізична культура",
+          "room": "СЗ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 5,
+        "raw": "Громад. освіта Г",
+        "confidence": 28,
+        "lesson": {
+          "subject": "Громадянська освіта",
+          "room": "Г"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 6,
+        "raw": "Інформатика(т) М",
+        "confidence": 47,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": "М"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 6,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 6,
+        "raw": "Мистецтво ІСТ",
+        "confidence": 95,
+        "lesson": {
+          "subject": "Мистецтво",
+          "room": "ІСТ"
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 0,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 1,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 2,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 3,
+        "row": 7,
+        "raw": "Інформатика(П) TH",
+        "confidence": 46,
+        "lesson": {
+          "subject": "Інформатика",
+          "room": ""
+        },
+        "known": true
+      },
+      {
+        "table": "secondary",
+        "column": 4,
+        "row": 7,
+        "lesson": null
+      },
+      {
+        "table": "secondary",
+        "column": 5,
+        "row": 7,
+        "raw": "Вих.годнна ТП",
+        "confidence": 74,
+        "lesson": {
+          "subject": "Виховна година",
+          "room": "ТП"
+        },
+        "known": true
+      }
+    ]
+  }
+]

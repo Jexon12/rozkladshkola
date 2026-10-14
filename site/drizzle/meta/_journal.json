@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791212357591,
+      "tag": "0000_ordinary_adam_warlock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791706759710,
+      "tag": "0001_parallel_iron_monger",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791820452297,
+      "tag": "0002_sleepy_puppet_master",
+      "breakpoints": true
+    }
+  ]
+}
