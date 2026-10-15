@@ -1,2 +1,0 @@
-import fs from 'node:fs';let s=fs.readFileSync('app/schedule.tsx','utf8');s=s.replace('</nav>{!canEdit&&<a className="nav-item" href="/signin-with-chatgpt?return_to=/">Вхід для редактора</a>}','{!canEdit&&<a className="nav-item" href="/signin-with-chatgpt?return_to=/">Вхід для редактора</a>}</nav>');fs.writeFileSync('app/schedule.tsx',s);
-s=fs.readFileSync('app/day-view.tsx','utf8').replace('focus&&rows.length>0&&<button','focus&&rows.length>0&&focus.date!==date&&<button');fs.writeFileSync('app/day-view.tsx',s);
