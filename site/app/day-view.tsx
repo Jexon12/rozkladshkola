@@ -38,7 +38,7 @@ export default function DayView({school,date,now,target,numbers,onOpenDate}:Prop
       {item.conflict&&teacherMode&&<span className="conflict compact-conflict">Одночасні уроки — перевірте призначення</span>}
      </summary><div className="compact-lesson-details"><p>{r.slot+1}-й урок{number&&` · №${number} за семестр`}</p>{teacher&&<p>{teacher.name}</p>}{change&&<p>{describeLesson(change.before)} → {describeLesson(change.after)}</p>}{'classId'in target&&<p>Харчування: {meal(target.classId).join('–')}</p>}{!teacher&&teacherMode&&!change&&!number&&<p>{r.lesson.subject} · {r.c} клас · кабінет {r.lesson.room||'не вказано'}</p>}</div></details>
     </li>;
-   })}</ol>:<div className="empty helpful-empty"><h3>Оберіть навчальний день</h3>{nextAvailable?<><p>Найближче заняття: {nextAvailable.lesson.subject} · {nextAvailable.time[0]} · {fullDate(nextAvailable.date)}</p><button className="primary-button" onClick={()=>onOpenDate(nextAvailable.date)}>Перейти до {destinationDay(nextAvailable.date)}<ArrowRight size={17}/></button></>:<p>Для цього класу або вчителя ще немає наступних занять. Уточніть розклад у редакторі.</p>}</div>}
+   })}</ol>:<div className="empty helpful-empty"><h3>На цей день уроків немає</h3>{nextAvailable?<><p>Найближче заняття: {nextAvailable.lesson.subject} · {nextAvailable.time[0]} · {fullDate(nextAvailable.date)}</p><button className="primary-button" onClick={()=>onOpenDate(nextAvailable.date)}>Перейти до {destinationDay(nextAvailable.date)}<ArrowRight size={17}/></button></>:<p>Для цього класу або вчителя ще немає наступних занять. Уточніть розклад у редакторі.</p>}</div>}
   </section>
  </div>;
 }
