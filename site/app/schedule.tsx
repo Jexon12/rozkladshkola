@@ -5,7 +5,6 @@ import { classes, days, rooms, seed, bells, classBells, meal, kyivNow, weekday, 
 import PhotoImport from "./photo-import";
 import DraftRecovery from './draft-recovery';
 import SaveHistory from './save-history';
-import ThemeToggle from './theme-toggle';
 import DayView from './day-view';
 import DateStrip,{DateActions} from './date-strip';
 import TargetPicker from './target-picker';
@@ -78,7 +77,7 @@ export default function Schedule({canEdit=false}:{canEdit?:boolean}){
 
   </aside>
   <main>
-   <header className="topbar"><div className="breadcrumb">Гімназія <span>/</span> Розклад</div><div className="topbar-actions"><ThemeToggle/><div className="clock"><span className="live-dot"/>{now?.time||"—"}<span>Київ</span></div></div></header>
+   <header className="topbar"><div className="breadcrumb">Гімназія <span>/</span> Розклад</div><div className="topbar-actions"><div className="clock"><span className="live-dot"/>{now?.time||"—"}<span>Київ</span></div></div></header>
    <div className="content">
     <div className="page-title"><div><p className="eyebrow">НАВЧАЛЬНИЙ ТИЖДЕНЬ</p><h1>{view==='push'?'Сповіщення':view==="summary"?"Підсумки навчання":view==="now"?"Уроки зараз":view==="bells"?"Розклад дзвінків":view==="calendar"?"Календар навчального року":view==="edit"?"Редагування розкладу":view==="week"?"Тиждень у розкладі":effectiveDate===now?.date?"Що сьогодні?":`Розклад на ${dateLabel(effectiveDate)}`}</h1></div><span className="semester">{semesterForDate(calendar,effectiveDate)?.label||"Календар"} <span>{calendar.start.slice(0,4)} / {calendar.end.slice(0,4)}</span></span></div>
     {error&&<div className="alert error" role="alert">{error}{!ready&&<button onClick={load}>Спробувати ще раз</button>}</div>}

@@ -275,3 +275,31 @@ main{margin-left:0}.content{max-width:1320px}.compact-day{max-width:900px}.compa
 .push-setup{margin-top:24px;border-top:1px solid var(--line);padding-top:18px}.push-setup summary{cursor:pointer;font-weight:700}.push-setup p{margin:14px 0;font-size:.9rem}.push-setup label{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}.push-setup input{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}.push-setup a{text-decoration:underline}
 
 @media (min-width:651px) and (max-width:900px){.sidebar nav .nav-item{font-size:11px;line-height:1.2;flex-direction:column;gap:4px;padding:9px 2px;text-align:center;overflow-wrap:anywhere}}
+
+/* Light timetable palette. */
+:root[data-theme=light]{--ink:#242a22;--muted:#626b5d;--line:#dcded4;--green:#49664a;--bg:#f8f7f2;--yellow:#f7d9a1}
+:root[data-theme=light] body{background:#f8f7f2}
+:root[data-theme=light] .sidebar{background:#e5eade;border-color:#d9dfd3;backdrop-filter:none}
+:root[data-theme=light] .topbar{background:#f8f7f2;box-shadow:none;border-color:var(--line)}
+:root[data-theme=light] .nav-item{color:#354333}
+:root[data-theme=light] .nav-item.active{background:#c9d7c2;color:#213a24;box-shadow:none}
+:root[data-theme=light] .nav-item.active:before{background:#49664a}
+:root[data-theme=light] .brand-icon{background:#d1dfca;color:#345338;box-shadow:none}
+:root[data-theme=light] .panel{background:#fffefa;border:1px solid var(--line);box-shadow:none}
+:root[data-theme=light] .date-strip-days button[aria-pressed=true]{background:#bdceb6;color:#223d27;border-color:#bdceb6}
+:root[data-theme=light] .date-strip-days button:not([aria-pressed=true]){background:#fffefa;border-color:var(--line)}
+:root[data-theme=light] .date-strip-days button.has-lessons i{background:#ad572f}
+:root[data-theme=light] .target-picker>summary{background:#fffefa;border-color:var(--line)}
+.focus-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-bottom:12px}
+:root[data-theme=light] .compact-focus{margin:0!important;background:#fff2dc;color:#563715;border:1px solid #efc77f;box-shadow:none}
+:root[data-theme=light] .compact-focus .live-card-head,:root[data-theme=light] .compact-focus-body p{color:#694d2b}
+:root[data-theme=light] .compact-focus .live-dot{background:#cf7900}
+.next-card{padding:16px 20px;background:#eaf0e5;border:1px solid #d5e0cf;border-radius:14px;color:var(--ink)}
+.next-card-label{font-size:13px;color:#49664a;font-weight:650}.next-card h2{margin:7px 0 4px;font-size:20px}.next-card p{font-size:14px;color:var(--muted)}.next-card button{margin-top:8px}
+:root[data-theme=light] .compact-day .timeline-card{border-color:var(--line);border-left-color:transparent;background:#fffefa;box-shadow:none}
+:root[data-theme=light] .compact-day .timeline-entry.is-current .timeline-card{background:#fff0d6;border-color:#e8bb75;border-left-color:#d27c00}
+:root[data-theme=light] .compact-day .timeline-entry.is-next .timeline-card{background:#f3f6ef;border-color:#cfdccc}
+:root[data-theme=light] .pill.amber{background:#f8ded4;color:#9b3d25}
+:root[data-theme=light] .primary-button{background:#49664a;color:#fff}
+:root[data-theme=light] .focus-live-progress::-webkit-progress-value{background:#cf7900}:root[data-theme=light] .focus-live-progress::-moz-progress-bar{background:#cf7900}
+@media(max-width:650px){:root[data-theme=light] .sidebar nav{background:#f8f7f2;border-color:var(--line)}.focus-cards{grid-template-columns:1fr}.next-card{padding:14px 16px}.next-card h2{font-size:18px}}
