@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./timetable-design.css";
+import "./dashboard-design.css";
 
 export const metadata: Metadata = {
   title: "Розклад · Матроська гімназія",

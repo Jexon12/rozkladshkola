@@ -34,7 +34,12 @@ assert.ok(!strip.includes('today-marker'),'Today outside selected week is not mi
 const actions=renderToStaticMarkup(React.createElement(DateActions,{date:'2026-10-05',today:'2026-10-04',onChange(){}}));assert.ok(actions.includes('Сьогодні, неділя, 4 жовтня'));assert.ok(actions.includes('4'));
 console.log('Date strip checks passed: actual lesson dots, no-lesson days, today outside selected week.');
 
-assert.ok(strip.includes('жовтень 2026'));assert.ok(!strip.includes('2026 р.'));assert.ok(strip.includes('date-legend'));assert.ok(!strip.includes('Наступний тиждень'));
+assert.ok(strip.includes('5 – 11 жовтня 2026'));assert.ok(strip.includes('date-legend'));assert.ok(strip.includes('Наступний тиждень'));
 assert.ok(!actions.includes('<small>'),'Today button without repeated date');assert.ok(actions.includes('calendar-icon'));
 assert.ok(html.indexOf('compact-lesson-time')<html.indexOf('compact-lesson-main'),'Time beside lesson badge');
-assert.ok(!empty.split('<section class="panel timeline-panel"')[0].includes(' · понеділок, 5 жовтня</p>'),'Focus date is not repeated');
+assert.ok(html.includes('Перерва 10 хв'),'Short breaks remain visible next to the following lesson');
+assert.ok(html.includes('Вікно · 65 хв'),'Long gaps remain distinct');
+assert.ok(html.includes('Зараз триває урок'));assert.ok(html.includes('Далі у розкладі'));
+assert.ok(html.includes('aria-label="Час поточного уроку"'));assert.ok(html.includes('subject-icon'));
+const yearBoundary=renderToStaticMarkup(React.createElement(DateStrip,{school,date:'2026-12-31',target:{teacherId:'test'},onChange(){}}));
+assert.ok(yearBoundary.includes('28 грудня 2026 – 3 січня 2027'),'Week range shows both years');

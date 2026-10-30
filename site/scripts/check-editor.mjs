@@ -7,7 +7,7 @@ await writeFile('.sites-runtime/editor-hooks.mjs',`export const state=[],memos=[
 export function reset(){i=0;m=0;r=0;}
 export function useState(initial){const k=i++;if(!(k in state))state[k]=typeof initial==='function'?initial():initial;return [state[k],v=>state[k]=typeof v==='function'?v(state[k]):v];}
 export function useMemo(fn,deps){const k=m++;if(!memos[k]||deps.some((v,j)=>!Object.is(v,memos[k].deps[j])))memos[k]={deps,value:fn()};return memos[k].value;}
-export function useRef(v){const k=r++;return refs[k]??=( {current:v} );}export function useEffect(){}
+export function useRef(v){const k=r++;return refs[k]??=( {current:v} );}export function useId(){return 'test-id';}export function useEffect(){}
 `);
 await build({entryPoints:['app/schedule.tsx'],bundle:true,platform:'node',format:'esm',outfile:'.sites-runtime/editor-component.mjs',packages:'external',plugins:[{name:'hooks',setup(b){b.onResolve({filter:/^react$/},()=>({path:pathToFileURL(process.cwd()+'/.sites-runtime/editor-hooks.mjs').href,external:true}));}}]});
 await build({stdin:{contents:'export * from "./lib/school.ts";export * from "./lib/calendar.ts";export * from "./lib/abortable.ts";',resolveDir:process.cwd()},bundle:true,platform:'node',format:'esm',outfile:'.sites-runtime/editor-model.mjs'});
