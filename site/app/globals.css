@@ -303,3 +303,20 @@ main{margin-left:0}.content{max-width:1320px}.compact-day{max-width:900px}.compa
 :root[data-theme=light] .primary-button{background:#49664a;color:#fff}
 :root[data-theme=light] .focus-live-progress::-webkit-progress-value{background:#cf7900}:root[data-theme=light] .focus-live-progress::-moz-progress-bar{background:#cf7900}
 @media(max-width:650px){:root[data-theme=light] .sidebar nav{background:#f8f7f2;border-color:var(--line)}.focus-cards{grid-template-columns:1fr}.next-card{padding:14px 16px}.next-card h2{font-size:18px}}
+
+/* Compact timetable and fixed mobile navigation. */
+.sidebar nav.mobile-nav{display:none}
+.compact-day .day-timeline{padding:0 16px 12px}.compact-day .timeline-entry{padding:0}.compact-day .compact-lesson{border-radius:0;border-width:0 0 1px;border-left:3px solid transparent}
+.compact-day .compact-lesson>summary{min-height:52px;padding:8px 12px;grid-template-columns:26px 112px minmax(0,1fr) 16px}
+.compact-day .timeline-gap{margin:0;padding:3px 10px;font-size:12px;line-height:16px}.compact-day .timeline-gap.is-window{margin:3px 0;padding:4px 10px}
+.compact-day .slot-badge{background:transparent}.compact-day .compact-lesson-meta .subject-chip{background:transparent;padding:0;font-weight:500}
+@media(max-width:650px){
+ .sidebar nav.desktop-nav{display:none}.sidebar nav.mobile-nav{display:flex;overflow:visible;justify-content:space-around;gap:0;padding:4px 4px calc(4px + env(safe-area-inset-bottom));background:#f8f7f2}
+ .sidebar nav.mobile-nav .nav-item{display:flex;flex-direction:column;min-width:0;width:100%;min-height:54px;flex:1;padding:5px 2px;gap:3px;font-size:10px;line-height:1.1;white-space:normal;text-align:center}
+ .mobile-nav>button,.mobile-more{flex:1;min-width:0}.mobile-more{position:relative}.mobile-more summary{list-style:none;cursor:pointer}.mobile-more summary::-webkit-details-marker{display:none}
+ .mobile-more-menu{position:absolute;bottom:calc(100% + 8px);right:0;min-width:205px;padding:8px;background:#fffefa;border:1px solid var(--line);border-radius:14px;box-shadow:0 8px 28px #30393025}
+ .mobile-more-menu :is(button,a){display:flex;align-items:center;gap:10px;width:100%;padding:10px;text-align:left;border-radius:8px;font-size:14px}.mobile-more-menu .active{background:#e4eddf;color:#294b2b}
+ .compact-day .panel-heading{padding:12px 14px}.compact-day .day-timeline{padding:0 8px 8px}.compact-day .compact-lesson>summary{grid-template-columns:20px 85px minmax(0,1fr) 14px;gap:6px;padding:7px 4px;min-height:48px}
+ .compact-day .slot-badge{width:20px;height:20px;font-size:12px}.compact-day .compact-lesson-time{font-size:12px}.compact-day .compact-lesson-main>strong{font-size:14px}.compact-day .compact-lesson-meta{margin-top:2px;font-size:12px;gap:2px 6px}.compact-day .compact-lesson-meta .subject-chip{font-size:12px}
+ .compact-day .timeline-gap{margin:0;padding:2px 8px;line-height:15px;font-size:11px}.compact-day .timeline-gap.is-window{margin:2px 0;padding:4px 8px;font-size:12px}
+}
